@@ -19,7 +19,7 @@ try {
     $html2pdf = new Html2Pdf('P', 'A4', 'fr', true, 'UTF-8', array(15, 5, 15, 5));
     $html2pdf->pdf->SetDisplayMode('fullpage');
     $html2pdf->writeHTML($content);
-    $html2pdf->output('DiegoVP.pdf');
+    $html2pdf->output('Christtian_Espinoza.pdf');
 
 } catch (Html2PdfException $e) {
     $html2pdf->clean();
